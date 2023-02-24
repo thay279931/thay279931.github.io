@@ -1,0 +1,1002 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    background: url('./images/LmDEQsZuSA_small.jpg') no-repeat 0 0 fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+h1{
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: yellow;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: yellow;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: yellow;
+    font-size: 22px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: yellow;
+}
+
+.btn-outline-success {
+    transition: .5s;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.navbar-light .navbar-nav .nav-iteml4:hover .nav-link .disabled {
+    color: #fff;
+}
+
+.sect2img {
+    height: 700px;
+    background: url('./images/1.jpg') center center no-repeat;
+    background-size: cover;
+    padding-top: 570px;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sect2img:hover {
+    background: url('./images/Fire_Magnifying-glass_stupidparticle.png') center center/100% 100% no-repeat,
+        url('./images/Money_dice_stupidparticle-768x600.png') center center/100% 100% no-repeat,
+        url('./images/1.jpg') center center/cover no-repeat;
+}
+
+
+
+.radius {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgba(253, 253, 253, 0.514);
+    border-radius: 20px;
+    transition: .8s;
+}
+
+.radius:hover {
+    outline: 1px solid rgba(253, 253, 253, 0.514);
+}
+
+.radius p {
+    color: aliceblue;
+}
+
+.sect3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sect3 h4 {
+    color: rgb(221, 17, 17);
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.sect3 h3 {
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-size: 64px;
+    padding-top: 50px;
+}
+
+.sect3 p {
+    color: rgb(250, 249, 249);
+    line-height: 30px;
+    font-size: 24px;
+    text-align: justify;
+    margin: 0 25%;
+}
+
+.boder {
+    background: url('./images/boder.jpg') no-repeat;
+    background-size: 100% 100%;
+    margin: 0 25%;
+    height: 14px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.boder:hover {
+    background: url('./images/stupidparticle_stroynew_Taichung_1-000-1-800x25.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.sect3 .smallfont {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    transition: .5s;
+}
+
+.smallfont:hover {
+    color: aliceblue;
+}
+
+.boder2 {
+    background: url('./images/boder.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 14px;
+    margin: 30px 25%;
+    transition: .5s;
+}
+
+.boder2:hover {
+    background: url('./images/stupidparticle_stroynew_Taichung_1-000-1-800x25.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.sect4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coll {
+    width: 100%;
+    padding: 0 15px;
+}
+
+@media screen and (min-width:576px) {
+    .coll {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .coll {
+        width: 25%;
+    }
+}
+
+
+.img2 {
+    background: url('./images/大廳-2-1-800x571.jpg')no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 10px;
+    transition: .8s;
+}
+
+
+.img2-2 {
+    background: url('./images/廚房5-1-500x358.jpg')no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 270px;
+    margin: auto;
+    transition: .8s;
+    margin-bottom: 10px;
+}
+
+.img2-3 {
+    background: url('./images/樓梯4-1-500x358.jpg')no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 270px;
+    margin: auto;
+    transition: .8s;
+    margin-bottom: 10px;
+}
+
+.img2-4 {
+    background: url('./images/img.jpg')no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 270px;
+    margin: auto;
+    transition: .8s;
+}
+
+.img2:hover,
+.img2-2:hover,
+.img2-3:hover,
+.img2-4:hover {
+    transform: scale(1.1);
+}
+
+.sect5 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:576px) {
+    .sect5 {
+        height: 450px;
+    }
+}
+
+.sect5 h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.boder3 {
+    background: url('./images/boder.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 14px;
+    margin: 0 25%;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.boder3:hover {
+    background: url('./images/stupidparticle_stroynew_Taichung_1-000-1-800x25.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.sect5 p {
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 24px;
+    text-align: justify;
+    margin: 0 25%;
+}
+
+.sect6 {
+    width: 100%;
+    height: 220px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-bottom: 250px;
+
+}
+
+.sect6-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img3 {
+    background: url('./images/七大傳說壹-600x113.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 80px;
+    margin: auto;
+    transition: .3s;
+}
+
+.sect6-img3:hover .img3 {
+    transform: rotate(360deg);
+}
+
+.sect6-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    margin-top: 30px;
+}
+
+.coll1 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.coll2 {
+    width: 25%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+@media screen and (min-width:576px) {
+    .coll1 {
+        width: 50%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+
+    .sect6 {
+        height: 650px;
+    }
+
+    .coll2 {
+        width: 50%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+}
+
+@media screen and (min-width:768px) {
+    .coll1 {
+        width: 33.333%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+
+    .coll2 {
+        width: 33.33333%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+
+    .sect6 {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .coll1 {
+        width: 14%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+
+    .coll2 {
+        width: 14%;
+        height: 200px;
+        margin: auto;
+        /* padding: 0 200px; */
+    }
+
+    .sect6 {
+        height: 100px;
+    }
+}
+
+.stove {
+    background: url('./images/爐灶.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 25%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.stove:hover {
+    transform: scale(1.1);
+    filter: none;
+}
+
+.mouse {
+    background: url('./images/錢鼠.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 25%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.mouse:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.mirror {
+    background: url('./images/鏡子.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 25%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.mirror:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.bed {
+    background: url('./images/床.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 25%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.bed:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.grudge {
+    background: url('./images/怨牌.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 33.33333%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.grudge:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.baby {
+    background: url('./images/娃.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 33.33333%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.baby:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.liquor {
+    background: url('./images/酒.png') no-repeat;
+    background-size: 100% 100%;
+    filter: invert(0.5);
+    /* width: 33.33333%; */
+    height: 150px;
+    transition: .5s;
+}
+
+.liquor:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.sect7 {
+    width: 100%;
+    height: 470px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img4 {
+    background: url('./images/Abandoned_note-600x700.png') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+
+}
+
+
+
+.sect7 p {
+    color: rgb(240, 225, 12);
+    font-size: 26px;
+
+    transition: .5s;
+}
+
+.sect7 p:hover {
+    color: aliceblue;
+}
+
+@media screen and (min-width:550px) {
+
+    .img4 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:776px) {
+
+    .img4 {
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .img4 {
+        width: 30%;
+    }
+}
+
+.sect8 {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.sect8 h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.boder4 {
+    background: url('./images/boder.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 14px;
+    margin: 0 25%;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.boder4:hover {
+    background: url('./images/stupidparticle_stroynew_Taichung_1-000-1-800x25.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.sect8 p {
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    font-size: 24px;
+    text-align: justify;
+    margin: 0 25%;
+    margin-bottom: 20px;
+}
+
+.boder5 {
+    background: url('./images/boder.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 14px;
+    margin: 0px 25%;
+    transition: .5s;
+}
+
+.boder5:hover {
+    background: url('./images/stupidparticle_stroynew_Taichung_1-000-1-800x25.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width:576px) {
+    .sect8 {
+        height: 550px;
+
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sect8 {
+        height: 400px;
+
+    }
+}
+
+.sect9 {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.img5 {
+    background: url('./images/Abandoned_Precautions_01-400x204.png') no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.img6 {
+    background: url('./images/Abandoned_Precautions_02-400x204.png') no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.buttom {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    line-height: 80px;
+    font-size: 26px;
+    transition: .8s;
+}
+
+.buttom:hover {
+    background: linear-gradient(rgb(207, 120, 120) 20%, red);
+    color: aliceblue;
+}
+
+
+@media screen and (min-width:576px) {
+    .img5 {
+        width: 60%;
+
+    }
+
+    .img6 {
+        width: 60%;
+    }
+
+    .buttom {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:776px) {
+    .img5 {
+        width: 50%;
+
+    }
+
+    .img6 {
+        width: 50%;
+    }
+
+    .buttom {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .img5 {
+        width: 35%;
+
+    }
+
+    .img6 {
+        width: 35%;
+    }
+
+    .buttom {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .img5 {
+        width: 30%;
+
+    }
+
+    .img6 {
+        width: 30%;
+    }
+
+    .buttom {
+        width: 30%;
+    }
+}
+
+.sect10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect10 p {
+    color: rgba(240, 248, 255, 0.767);
+    margin: 0 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.sect10 h4 {
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+    border-bottom: 3px solid white;
+    margin: 0 150px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:500px) {
+    .sect10 h4 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .sect10 h4 {
+        font-size: 3rem;
+    }
+
+    .sect10 p {
+        font-size: 1.5rem;
+    }
+}
+
+.sect10-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.hsinchu img:hover,
+.taichung img:hover,
+.taipei img:hover,
+.tianan img:hover {
+    transform: scale(1.1);
+}
+
+.hsinchu:hover,
+.taichung:hover,
+.taipei:hover,
+.tianan:hover {
+    box-shadow: 7px 1px 5px 1px rgb(239, 243, 5);
+}
+
+.hsinchu {
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 1px yellow;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.hsinchu img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.taichung {
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 1px rgb(255, 255, 0);
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.taichung img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.taipei {
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 1px yellow;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.taipei img {
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.tianan {
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 5px 1px yellow;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.tianan img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.sect11 {
+    position: relative;
+    height: 245px;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+}
+
+.sect11-img img {
+    width: 180px;
+    clip-path: polygon(12% 0, 100% 0, 86% 100%, 0% 100%);
+    animation: sect11img 4s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes sect11img {
+    0% {
+        position: absolute;
+        left: 0;
+    }
+
+
+    50% {
+        position: absolute;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        position: absolute;
+        left: 0;
+    }
+}
+
+
+
+.sect11-img img:hover {
+    animation-play-state: paused;
+}
+
+.sect12 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(82, 73, 73, 0.233);
+    color: aliceblue;
+    padding: 0 100px;
+    width: 100%;
+    height: 520px;
+}
+
+.sect12-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.sect12-card h3 {
+    color: aliceblue;
+    font-size: 50px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.sect12-card h4 {
+    font-size: 26px;
+    color: yellow;
+    padding: 0 10px;
+    border-right: 1px solid yellow;
+    border-left: 1px solid yellow;
+    margin-bottom: 10px;
+}
+
+.sect12-text {
+    line-height: 26px;
+    text-align: justify;
+}
+
+.sect12-buttom {
+    border-radius: 8px;
+    color: black;
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px 0;
+    transition: .3s;
+}
+
+.sect12-buttom:hover {
+    background-color: rgb(192, 25, 25);
+    color: aliceblue;
+    border: 1px solid rgb(235, 29, 29);
+    outline: 3px solid rgba(165, 9, 9, 0.534);
+
+}
+
+.sect12-end {
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.sect12-end:hover {
+    font-size: 26px;
+    color: rgb(49, 193, 230);
+}
+
+
+
+.sect12-inimg {
+    width: 45%;
+    clip-path: polygon(100% 0, 3% 0, 100% 86%);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sect12:hover .sect12-inimg {
+    color: rgb(36, 142, 241);
+    opacity: 0.7;
+}
+
+@media screen and (min-width:572px) {
+    .sect12-inimg {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:776px) {
+    .sect12-inimg {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sect12-inimg {
+        width: 25%;
+    }
+}
+
+.foot {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px 0; */
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(71, 70, 70);
+}
+
+.foot p {
+    color: aliceblue;
+    margin-bottom:0 ;
+}
+
+span {
+    color: red;
+}
