@@ -69,20 +69,16 @@ h1{
 }
 
 .sect2img {
-    height: 700px;
+    height: 900px;
     background: url('./images/1.jpg') center center no-repeat;
     background-size: cover;
-    padding-top: 570px;
+    padding-top: 750px;
     display: flex;
     justify-content: center;
     transition: .3s;
 }
 
-.sect2img:hover {
-    background: url('./images/Fire_Magnifying-glass_stupidparticle.png') center center/100% 100% no-repeat,
-        url('./images/Money_dice_stupidparticle-768x600.png') center center/100% 100% no-repeat,
-        url('./images/1.jpg') center center/cover no-repeat;
-}
+
 
 
 
@@ -250,11 +246,6 @@ h1{
     margin-bottom: 30px;
 }
 
-@media screen and (min-width:576px) {
-    .sect5 {
-        height: 450px;
-    }
-}
 
 .sect5 h3 {
     color: rgb(255, 255, 255);
@@ -545,7 +536,7 @@ h1{
 
 .sect8 {
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin-bottom: 30px;
 }
 
@@ -594,7 +585,7 @@ h1{
 
 @media screen and (min-width:576px) {
     .sect8 {
-        height: 550px;
+        height: 700px;
 
     }
 }
@@ -608,7 +599,7 @@ h1{
 
 .sect9 {
     width: 100%;
-    height: 550px;
+    height: 600px;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
@@ -652,21 +643,21 @@ h1{
     color: aliceblue;
 }
 
-
+/* 
 @media screen and (min-width:576px) {
     .img5 {
-        width: 60%;
+        width: 70%;
 
     }
 
     .img6 {
-        width: 60%;
+        width: 70%;
     }
 
     .buttom {
-        width: 60%;
+        width: 70%;
     }
-}
+} */
 
 @media screen and (min-width:776px) {
     .img5 {
@@ -685,22 +676,37 @@ h1{
 
 @media screen and (min-width:992px) {
     .img5 {
-        width: 35%;
+        width: 55%;
 
     }
 
     .img6 {
-        width: 35%;
+        width: 45%;
     }
 
     .buttom {
-        width: 35%;
+        width: 45%;
     }
 }
 
 @media screen and (min-width:1100px) {
     .img5 {
-        width: 30%;
+        width: 40%;
+
+    }
+
+    .img6 {
+        width: 40%;
+    }
+
+    .buttom {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .img5 {
+        width: 25%;
 
     }
 
@@ -978,7 +984,7 @@ h1{
 
 @media screen and (min-width:992px) {
     .sect12-inimg {
-        width: 25%;
+        width: 20%;
     }
 }
 
